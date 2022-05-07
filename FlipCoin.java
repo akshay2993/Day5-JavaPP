@@ -20,7 +20,7 @@ public class FlipCoin {
             }
         }
         double percentHead = Math.round((headCount/turns)*100);
-        double percentTail = Math(tailCount/turns)*100;
+        double percentTail = Math.round((tailCount/turns)*100);
 
         System.out.println("Percentage of Heads: "+percentHead+"%");
         System.out.println("Percentage of Tails: "+percentTail+"%");

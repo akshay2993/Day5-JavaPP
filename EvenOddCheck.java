@@ -13,7 +13,7 @@ public class EvenOddCheck {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a no. to check if it's even or odd: ");
+        System.out.println("Enter a no. to check if it's even or odd");
         int num = sc.nextInt();
 
         System.out.println(check(num) ? "It is an even number." : "It is an odd number.");
